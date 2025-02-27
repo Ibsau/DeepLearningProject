@@ -1,1 +1,3 @@
-test
+Kaggle Job Dataset: https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset
+
+NYC Job Posting: https://catalog.data.gov/dataset/nyc-jobs
