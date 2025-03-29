@@ -1,7 +1,30 @@
 import torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import AutoModel, AutoTokenizer
-# print(torch.cuda.is_available())
+import json
+
+def jsonl_to_dict(file_path):
+    """Converts a JSONL file to a dictionary.
+
+    Args:
+        file_path: The path to the JSONL file.
+
+    Returns:
+        A dictionary containing the data from the JSONL file.
+    """
+    data_dict = {}
+    with open(file_path, 'r') as f:
+        for line in f:
+            try:
+                json_object = json.loads(line)
+                # Assuming each JSON object has a unique key
+                # Modify this part based on your JSON structure
+                if isinstance(json_object, dict):
+                  key = list(json_object.keys())[0]
+                  data_dict[key] = json_object[key]
+            except json.JSONDecodeError:
+                print(f"Skipping invalid JSON line: {line.strip()}")
+    return data_dict
 
 tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
 
@@ -42,3 +65,6 @@ class ResumeJobDataset(Dataset):
         }
 
 
+if __name__ == '__main__':
+    dataset_path = "Datasets/dev.jsonl"
+    dataset = jsonl_to_dict(dataset_path)
