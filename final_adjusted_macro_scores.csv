@@ -1,0 +1,61 @@
+Category,Field,Year,Adjusted_Score
+Medical & Life Sciences,Healthcare,2023,0.1505833333333334
+Medical & Life Sciences,Biology,2023,0.1505833333333334
+Medical & Life Sciences,Pharmaceutical Sciences,2023,0.1505833333333334
+Medical & Life Sciences,Nursing,2023,0.1505833333333334
+Medical & Life Sciences,Biomedical Engineering,2023,0.1505833333333334
+Medical & Life Sciences,Public Health,2023,0.1505833333333334
+Math & Technology,Computer Science,2023,0.13900000000000007
+Math & Technology,Mathematics,2023,0.13900000000000007
+Math & Technology,Software Engineering,2023,0.13900000000000007
+Math & Technology,Mechanical Engineering,2023,0.13900000000000007
+Math & Technology,Data Science,2023,0.13900000000000007
+Math & Technology,Electrical Engineering,2023,0.13900000000000007
+Business & Finance,Finance,2023,0.11583333333333339
+Business & Finance,Accounting,2023,0.11583333333333339
+Business & Finance,Real Estate,2023,0.11583333333333339
+Business & Finance,Investment Banking,2023,0.11583333333333339
+Business & Finance,Taxation,2023,0.11583333333333339
+Business & Finance,Supply Chain Management,2023,0.11583333333333339
+Humanities & Social Sciences,Political Science,2023,0.10425000000000005
+Humanities & Social Sciences,Geography,2023,0.10425000000000005
+Humanities & Social Sciences,Sociology,2023,0.10425000000000005
+Humanities & Social Sciences,International Relations,2023,0.10425000000000005
+Humanities & Social Sciences,History,2023,0.10425000000000005
+Humanities & Social Sciences,Psychology,2023,0.10425000000000005
+Arts & Design,Fine Arts,2023,0.09266666666666672
+Arts & Design,Music,2023,0.09266666666666672
+Arts & Design,Photography,2023,0.09266666666666672
+Arts & Design,Videography,2023,0.09266666666666672
+Arts & Design,Graphic Design,2023,0.09266666666666672
+Arts & Design,Fashion Design,2023,0.09266666666666672
+Medical & Life Sciences,Healthcare,2024,-0.05200000000000037
+Medical & Life Sciences,Biology,2024,-0.05200000000000037
+Medical & Life Sciences,Pharmaceutical Sciences,2024,-0.05200000000000037
+Medical & Life Sciences,Nursing,2024,-0.05200000000000037
+Medical & Life Sciences,Biomedical Engineering,2024,-0.05200000000000037
+Medical & Life Sciences,Public Health,2024,-0.05200000000000037
+Math & Technology,Computer Science,2024,-0.04800000000000034
+Math & Technology,Mathematics,2024,-0.04800000000000034
+Math & Technology,Software Engineering,2024,-0.04800000000000034
+Math & Technology,Mechanical Engineering,2024,-0.04800000000000034
+Math & Technology,Data Science,2024,-0.04800000000000034
+Math & Technology,Electrical Engineering,2024,-0.04800000000000034
+Business & Finance,Finance,2024,-0.040000000000000285
+Business & Finance,Accounting,2024,-0.040000000000000285
+Business & Finance,Real Estate,2024,-0.040000000000000285
+Business & Finance,Investment Banking,2024,-0.040000000000000285
+Business & Finance,Taxation,2024,-0.040000000000000285
+Business & Finance,Supply Chain Management,2024,-0.040000000000000285
+Humanities & Social Sciences,Political Science,2024,-0.03600000000000026
+Humanities & Social Sciences,Geography,2024,-0.03600000000000026
+Humanities & Social Sciences,Sociology,2024,-0.03600000000000026
+Humanities & Social Sciences,International Relations,2024,-0.03600000000000026
+Humanities & Social Sciences,History,2024,-0.03600000000000026
+Humanities & Social Sciences,Psychology,2024,-0.03600000000000026
+Arts & Design,Fine Arts,2024,-0.03200000000000023
+Arts & Design,Music,2024,-0.03200000000000023
+Arts & Design,Photography,2024,-0.03200000000000023
+Arts & Design,Videography,2024,-0.03200000000000023
+Arts & Design,Graphic Design,2024,-0.03200000000000023
+Arts & Design,Fashion Design,2024,-0.03200000000000023
