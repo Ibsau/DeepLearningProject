@@ -16,7 +16,7 @@ class TransformerClassifier(nn.Module):
         
         
         pooled_output = transformer_outputs.last_hidden_state[:, 0, :]  # Extract CLS token embedding
-        # pooled_output = torch.mean(transformer_outputs.last_hidden_state, dim=1) # OPTIONAL Mean Pooling
+        pooled_output = torch.mean(transformer_outputs.last_hidden_state, dim=1) # OPTIONAL Mean Pooling
         # pooled_output = torch.max(transformer_outputs.last_hidden_state, dim=1).values # OPtional Max Pooling
 
         logits = self.classifier(pooled_output)  # Classification head
