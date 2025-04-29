@@ -1,3 +1,6 @@
 venv/
 Datasets/
 __pycache__/
+*.jsonl
+*.csv
+*.pth
